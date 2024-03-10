@@ -18,3 +18,9 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+
+  function toggleRightSection() {
+    var rightSection = document.getElementById("rightSection");
+    rightSection.style.display = (rightSection.style.display === "none") ? "block" : "none";
+}
