@@ -67,6 +67,8 @@ body{
   padding: 20px; /* Some padding */
 }
 
+
+
 /* Main column */
 .main {
   flex: 70%; /* Set width of the main content */
@@ -93,4 +95,10 @@ body{
   padding: 20px; /* Some padding */
   text-align: center; /* Center text*/
   background: #ddd; /* Grey background */
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #555; 
 }
