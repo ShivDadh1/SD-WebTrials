@@ -56,11 +56,11 @@ body{
 .row{
   display: flex;
   flex-wrap: wrap;
+  padding: 5px;
 }
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar / left column */
-
 .side{
   flex: 30%; /* Width of the sidebar */
   background-color: #f1f1f1; /* Grey background color */
@@ -109,6 +109,7 @@ img {
   display: inline-block;
   padding: 10px;
   color: #000;
+  margin-right: 10px;
 }
 
 .column{
@@ -120,6 +121,7 @@ img {
   color: #000;
   background-color: #f1f1f1;
   width: 250px;
+  margin-left: 40px;
 }
 
 .Project_Link{
@@ -129,12 +131,4 @@ img {
 
 .Project_Title {
   color: black;
-}
-
-.row {
-  padding: 5px;
-}
-
-.column {
-  margin-left: 40px;
 }
