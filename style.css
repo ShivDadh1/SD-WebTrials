@@ -114,12 +114,27 @@ img {
 .column{
   text-decoration: none;
   border: 3px solid #000;
+  border-radius: 3px;
   display: inline-block;
   padding: 10px;
   color: #000;
+  background-color: #f1f1f1;
   width: 250px;
 }
 
 .Project_Link{
   text-decoration: none;
+}
+
+
+.Project_Title {
+  color: black;
+}
+
+.row {
+  padding: 5px;
+}
+
+.column {
+  margin-left: 40px;
 }
