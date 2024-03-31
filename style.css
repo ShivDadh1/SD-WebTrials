@@ -1,5 +1,5 @@
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;    /* Text */
   margin: auto;
 }
 
@@ -104,31 +104,31 @@ img {
 }
 
 .DownloadLink{
-  text-decoration: none;
-  border: 5px solid #000;
+  text-decoration: none;      /*Removes underline*/
+  border: 5px solid #000;   /*Create box*/
   display: inline-block;
-  padding: 10px;
-  color: #000;
-  margin-right: 10px;
+  padding: 10px;               /*Box spacing*/
+  color: #000;              /*Box color*/
+  margin-right: 10px;         /*Box margin*/
 }
 
 .column{
-  text-decoration: none;
-  border: 3px solid #000;
-  border-radius: 3px;
+  text-decoration: none;          /* Column for project */
+  border: 3px solid #000;       /*Solid black border*/
+  border-radius: 3px;              /*Rounded border*/
   display: inline-block;
-  padding: 10px;
+  padding: 10px;                   /* Column space */
   color: #000;
-  background-color: #f1f1f1;
-  width: 250px;
-  margin-left: 40px;
+  background-color: #f1f1f1;    /*Box color*/
+  width: 250px;                   /*Box Width*/
+  margin-left: 40px;              /*Space in between boxes*/
 }
 
-.Project_Link{
+.Project_Link{                   /*github link underline none*/
   text-decoration: none;
 }
 
 
-.Project_Title {
+.Project_Title {                /* Project Title Heading Black*/
   color: black;
 }
